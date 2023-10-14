@@ -1,0 +1,4 @@
+from zipfile import ZipFile
+
+with ZipFile('/Users/sabrin/Documents/Machine Learning/MachineLearning101/01-Python/Object JSON Schema_26th_Sept.zip') as zObject:
+    zObject.extractall(path="/Users/sabrin/Documents/Machine Learning/MachineLearning101/01-Python")
